@@ -9,7 +9,7 @@
         Body.append(WordBox);
         Body.children().each(function( index, item ){
             if( item.className.indexOf( 'word_box' ) < 0 ){
-                $( item ).remove();
+                $( item ).hide();
             }
         });
     }
