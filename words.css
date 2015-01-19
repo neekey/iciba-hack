@@ -1,0 +1,80 @@
+.mid {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_box {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_title h1 {
+    display: none;
+}
+.word_tip {
+    display: none;
+}
+.word_footer {
+    width: 100%;
+}
+
+.word_footer_scb {
+    display: none;
+}
+.operate {
+    display: none;
+}
+
+a#to_right {}
+
+.word_main {
+    height: auto;
+    padding-bottom: 30px;
+}
+.word_main_list li {
+    height: auto;
+}
+.word_main_list li .word_main_list_y {
+    display: inline-block;
+    width: auto;
+}
+
+.word_main_list_s {
+    width: auto;
+}
+
+.word_main_list_w {
+    width: auto;
+}
+
+.word_main_thead .word_main_list_y {
+    display: none;
+}
+
+.word_main_thead .word_main_list_s {
+    display: inline-block;
+}
+
+.word_main_thead .word_main_list_s span.word_main_list_tip {
+    display: none;
+}
+
+.word_main_thead {
+    height: auto;
+}
+
+.word_main_list {
+    height: 300px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.word_list_page_num span {
+    margin-bottom: 10px;
+    line-height: 24px;
+    padding: 0 10px;
+    font-size: 14px;
+}

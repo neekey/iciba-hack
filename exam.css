@@ -1,0 +1,162 @@
+.mid {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_box {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_title h1 {
+    display: none;
+}
+.word_tip {
+    display: none;
+}
+.word_footer {
+    width: 100%;
+}
+
+.word_footer_scb {
+    display: none;
+}
+
+p.upld {
+    display: none;
+}
+
+.study_card_tip {
+    display: none;
+}
+
+.change-pic.cl {
+    padding: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 400px;
+}
+
+.mid {
+    height: auto;
+    padding-bottom: 20px;
+}
+.change-pic-left,
+.change-pic-left2 {
+    margin: 0;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+.change-pic-right {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.change-pic-mid.fl {
+    height: 350px;
+    margin-top: -41px;
+    padding: 0;
+    width: 100%;
+}
+
+.change-pic-mid-box {
+    height: 400px;
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+.change-pic-mid.vDictation {
+    /* margin-top: -17px !important; */
+    width: 100%;
+    padding: 0;
+}
+
+.dictation-sound {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.dictation-answer {
+    padding: 0 !important;
+}
+
+span.dictation-sound-text {
+    display: none;
+}
+
+.dictation-answer {
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 31px;
+}
+
+a.dictation-sound-btn {
+    float: none;
+    margin: 10px;
+}
+
+.dictation-sound-input, .dictation-sound-input2 {
+    float: none;
+    display: block;
+}
+
+a.dictation-sound-btn {}
+
+.right_answer {
+    padding: 0;
+    text-align: center;
+}
+
+span.fl {}
+
+span.dictation-sound-text + .fl {
+    float: none;
+    display: inline-block;
+}
+
+.dictation-sound-icon {
+    float: none;
+}
+
+.close-sound.cl {
+    z-index: 10;
+    position: absolute;
+}
+
+
+div#cb_0 {}
+
+.vConnect_box {
+    width: 100%;
+}
+
+.vConnect_box ul li a {
+    width: 100px;
+}
+
+ul.vConnect_r {
+    display: none;
+}
+
+.vConnect_left,
+.vConnect_box ul.vConnect_c {
+    position: relative;
+    z-index: 100;
+}
+
+.vConnect_canvas {
+    left: 41px;
+}
+.vConnect.cl + div {
+    padding: 0 !important;
+    width: 100% !important;
+}
