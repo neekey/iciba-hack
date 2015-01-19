@@ -12,8 +12,8 @@ javascript:!(function(){
 
         type = type[1];
 
-        loadStyle( 'http://192.168.1.112:8080/' + type +'.css?t=' + Date.now()  );
-        loadScript( 'http://192.168.1.112:8080/' + type +'.js?t=' + Date.now() );
+        loadStyle( 'http://neekey.github.com/iciba-hack/' + type +'.css?t=' + Date.now()  );
+        loadScript( 'http://neekey.github.com/iciba-hack/' + type +'.js?t=' + Date.now() );
     }
 
     function loadStyle( url ){
