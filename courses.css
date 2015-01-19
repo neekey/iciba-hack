@@ -1,0 +1,84 @@
+.mid {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_box {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.word_title h1 {
+    display: none;
+}
+.word_tip {
+    display: none;
+}
+.word_footer {
+    display: none;
+}
+.study-speed-m.cl {
+    font-size: 0;
+    height: 380px !important;
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+.study-speed-m {
+    width: 100%;
+    padding-bottom: 20px;
+    background: white;
+}
+.study-speed-m li {
+    float: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
+    background: rgb(232, 250, 255) !important;
+    width: 30%;
+    margin: 2px;
+    height: 35px;
+}
+
+.study-speed-m li div,
+.study-speed-m li p {
+     display: none;
+ }
+
+.word_resultV_box.cl {
+    margin: 0;
+    padding: 10px;
+}
+
+span.word_resultV_j {
+    display: none;
+}
+
+.word_resultV {
+    margin: 0;
+    width: 100%;
+}
+
+.word_resultV .study-plan {
+    width: 100%;
+}
+
+a#set_plan {
+    display: none;
+}
+
+a.start-study.word_button_blue {
+    right: 10px !important;
+    top: 38px !important;
+    background: rgb(80, 168, 80);
+    height: auto;
+    line-height: 26px;
+    width: auto;
+    padding: 0 10px;
+}
+
+span.percentage-wai + span {
+    display: inline-block;
+}
